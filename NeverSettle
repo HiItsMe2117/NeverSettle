@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+
+      rm -R /var/mobile/Library/Caches/MappedImageCache/Wallpaper   
+
+      cp -R /User/MyPrograms/NeverSettle/Photos/MotorCycle/Wallpaper /var/mobile/Library/Caches/MappedImageCache
+
+    killall backboardd
+
+ sleep 45
+
+     rm -R /var/mobile/Library/Caches/MappedImageCache/Wallpaper
+
+     cp -R /User/MyPrograms/NeverSettle/Photos/Bug/Wallpaper /var/mobile/Library/Caches/MappedImageCache
+
+     killall backboardd
+
+sleep 45
+
+     rm -R /var/mobile/Library/Caches/MappedImageCache/Wallpaper
+
+      cp -R /User/MyPrograms/NeverSettle/Photos/Hackery/Wallpaper /var/mobile/Library/Caches/MappedImageCache
+
+       killall backboardd
+
+
+
+     
